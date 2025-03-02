@@ -274,8 +274,8 @@ async def upload(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**╭━━━━━━━━━━━╮\n🎬 VIDEO ID: {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n📄 Title: {name1} {res} 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎.mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
-                cc1 = f'**╭━━━━━━━━━━╮\n📁 FILE ID: {str(count).zfill(3)}.\n╰━━━━━━━━━━╯\n\n📄 Title: {name1} 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎.pdf \n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
+                cc = f'**╭━━━━━━━━━━━╮\n🎬 VIDEO ID: {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n📄 Title: {name1} {res} .mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
+                cc1 = f'**╭━━━━━━━━━━╮\n📁 FILE ID: {str(count).zfill(3)}.\n╰━━━━━━━━━━╯\n\n📄 Title: {name1}.pdf \n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
                     
                 
                 if "drive" in url:
